@@ -212,5 +212,4 @@ fig_results <- ggarrange(econ_plot, hmd_plot, demo_plot, be_plot,
                          # label.y = 1.1,
                          common.legend = TRUE, legend="bottom")
 View(df)
-?ggexport
 ggexport(fig_results, filename = "results_visualization7.pdf", width = 10, height = 7, units = "in", dpi = 600)
