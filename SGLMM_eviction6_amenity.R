@@ -1,3 +1,5 @@
+# Completed double-check (11-16-2024 by Wooyong)
+# Load required libraries
 library(tidyverse)
 library(rstan)
 library(sf)
