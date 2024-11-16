@@ -8,11 +8,11 @@ This study investigates the spatial structure of eviction filings at the Census 
 ### How to Use
 We used two programming languages: Python and R. Python was primarily used for data mining and processing (and EDA), while R was utilized for HMC sampling (via Stan). If you want to review the entire process from scratch, please follow these steps in order.
 
-1. Neighborhood characteristics per CBG from the American Community Survey using ```acs_api_query.py```
-2. Amenity information through OpenStreetMap API using ```count_amenity_01mile.py``` and ```amenity_data_cleansing.ipynb```
-3. EDA and data processing using ```sglmm_analysis.ipynb```
-4. SGLMM with HMC sampling using ```SGLMM_eviction6_amenity.R```
-5. Result visualization using ```results_visualization_amenity.R```
+1. Collect the neighborhood characteristics per CBG from the American Community Survey using ```acs_api_query.py```
+2. Collect the amenity information through OpenStreetMap (Overpass) API using ```count_amenity_01mile.py``` and ```amenity_data_cleansing.ipynb```
+3. Do EDA and data processing using ```sglmm_analysis.ipynb```
+4. Conduct SGLMM with HMC sampling using ```SGLMM_eviction6_amenity.R``` and ```slgmm_orthog_eff_small.stan```
+5. Visualize the results using ```results_visualization_amenity.R```
 
 The same process can be applied to the experiment of the prepandemic era.
 
