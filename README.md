@@ -18,4 +18,4 @@ We used two programming languages: Python and R. Python was primarily used for d
 The same process can be applied to the experiment of the prepandemic era.
 
 ### Dependency Issue
-Please refer to ```evic_env.yml ```
+Please refer to ```evic_env.yml ```.
